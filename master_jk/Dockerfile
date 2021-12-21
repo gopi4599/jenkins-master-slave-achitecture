@@ -1,5 +1,5 @@
-FROM jenkins
-MAINTAINER andresortiz28@hotmail.com
+FROM jenkins/jenkins
+MAINTAINER gopib450@gmail.com
 
 RUN /usr/local/bin/install-plugins.sh github
 RUN /usr/local/bin/install-plugins.sh docker-plugin
